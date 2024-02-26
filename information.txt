@@ -1,0 +1,59 @@
+How to run:
+	Laravel 
+		Install Laravel Dependencies
+			- run "composer i"
+	
+		Set Database Credentials in env file
+
+		Run Migrations:
+			- run "php artisan migrate"
+			- It will create tables in database
+
+		Seeding Data:
+			- run "php artisan db:seed"
+			- It will create 10 dummy users with password 'password' and 20 dummy feedbacks
+			
+		Start Laravel Server:
+			- run "php artisan serve"
+			- It will start laravel start
+		
+		
+	Vue(inside 'frontend' folder)
+		Install Vue Dependencies
+			- run "npm install"
+		
+		Run Vue Development Server
+			- run "npm run serve"
+			- It will start vue development server and you will be able to access application through browser
+		
+	
+	
+Features:
+	- Users
+		- User can register
+		- User can login
+		- User can logout
+		
+	- Feedbacks
+		- User can add Feedbacks
+		- User can see paginated listing of Feedbacks
+		- User can see detailed view of Feedback along with comments
+		- User can do comment on Feedback
+		- User can mention any user in comments
+		
+	- System
+		- Migrations included
+		- Seeders included
+		- Responsive Design
+		
+		
+Technolies Used:
+	- Laravel 10
+		- Authuntication by Sanctum
+		
+	- Vue 3
+		- Bootstrap for styling
+		- Vue Router for routing
+		- Axios for hitting APIs
+		- Quill editor
+	
